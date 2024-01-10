@@ -40,6 +40,7 @@ const MapComponent = () => {
   const mapContainerStyle = {
     width: '100%',
     height: '480px',
+
   };
   const onLoad = (marker) => {
     console.log("marker: ", marker);
@@ -52,7 +53,7 @@ const MapComponent = () => {
   console.log(selectedPlace)
   return (
     <div className='map-container'>
-      <LoadScript googleMapsApiKey = "AIzaSyDlDLrj6CnuwXQ83LxthkvaTZPhBOp8kL4" libraries={['places']}>
+      <LoadScript googleMapsApiKey = " " libraries={['places']}>
         <div className='input-search'>
           <Autocomplete
             style={{ width: '100%', padding: '10px' }}
